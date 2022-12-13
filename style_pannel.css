@@ -1,0 +1,78 @@
+body {
+  font-family: "Lucida Console", Monaco, monospace; /* Семейство шрифтов */
+  font-size: 14pt; /* Размер основного шрифта в пунктах  */
+  background-color: #FFFFFF; /* Цвет фона веб-страницы */
+  color: #000; /* Цвет основного текста */ 
+  text-align: center;
+}
+
+h1 {
+  font-family: "Lucida Console", Monaco, monospace; /* Семейство шрифтов */
+  font-size: 18pt; /* Размер основного шрифта в пунктах  */
+  color: #000; /* Цвет основного текста */ 
+  text-align: center;
+}
+
+.title{
+	font-size: 36px;
+	padding-top: 10px;
+	text-align: center;
+	color: #FFF8DC; /* Цвет заголовка */
+	  background-color: #800000; /* Цвет фона веб-страницы */
+	  height: 50px;
+}
+
+table{
+  border: 2px dashed#800000;
+  font-size: 15pt; 
+  margin-left: 150px; 
+  margin-right: 100px; 
+  margin-bottom: 100px; 
+  margin: auto;
+  background-color: beige;
+ border-spacing: 10px;
+}
+th, td {
+   padding: 10px 20px;
+}
+
+nav {
+  font-family: "Lucida Console", Monaco, monospace; /* Семейство шрифтов */
+  margin-right: 30px; /* Отступ слева в пикселях */
+  font-size: 14pt; /* Размер основного шрифта */
+  height: 30px; /* Размер фона */
+  color: #000; /* Цвет основного текста */ 
+  text-align: left;
+}
+
+
+a.knopka {
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: rgb(212,75,56); /* фон кнопки */
+  padding: .3em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур*/
+} 
+a.knopka:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+a.knopka:active { background: rgb(152,15,0); } /* при нажатии */
+
+a.menu {
+  color: black; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: beige; /* фон кнопки */
+  padding: .3em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур*/
+} 
+a.menu:hover {
+ background: rgb(232,95,76); 
+ color: #fff; /* цвет текста */
+} /* при наведении курсора мышки */
+
+a.menu:active { 
+background: rgb(152,15,0); 
+color: #fff; /* цвет текста */
+} /* при нажатии */
+
+
